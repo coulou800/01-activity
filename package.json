@@ -1,0 +1,45 @@
+{
+  "name": "01-activity",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc / ts-node src/app.ts",
+    "watch": "tsc --watch",
+    "dev":"tsc && nodemon src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coulou800/01-activity.git"
+  },
+  "keywords": [
+    "01edu",
+    "zone01",
+    "zone01dakar",
+    "dakar",
+    "zone",
+    "edu",
+    "01",
+    "collective",
+    "senegal",
+    "trainee",
+    "01trainee",
+    "activity"
+  ],
+  "author": "coulou800",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coulou800/01-activity/issues"
+  },
+  "homepage": "https://github.com/coulou800/01-activity#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "axios": "1.7.7",
+    "nodemon": "3.1.7"
+  }
+
+}
