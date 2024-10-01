@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 import * as cors from 'cors';
-import newTrainee from './repositories';
+import newTrainee, { getTraineeByUid } from './repositories';
 import { log } from 'console';
 app.use(cors());
 
@@ -47,10 +47,28 @@ app.post('/api/trainee', async (req, res) => {
     let token = req.body.token
     let domain = req.body.domain
     try {
-        getUser(domain, token).then(async(user) => {
-            log(user)
-            return newTrainee(user,token).catch(err => res.status(500).json({ err: err }))
-        }).then((r)=>res.status(201).json({msg:"created"}))
+        getUser(domain, token).then(async (user) => {
+            return newTrainee(user, token).then(t => t).catch(err => {
+                throw err
+            })
+        }).then((r) => res.status(201).json({ id: r?.uid }))
+    } catch (error) {
+        console.error('Error fetching Gitea data:', error);
+        res.status(500).json({ error: 'Unable to fetch Gitea commits' });
+    }
+});
+
+app.get('/api/trainee', async (req, res) => {
+    let uid = req.query.id as string
+    try {
+        getTraineeByUid(uid).then((user) => {
+            res.status(201).json({
+                trainee: {
+                    login: user?.login,
+                    fullname: user?.full_name
+                }
+            })
+        })
     } catch (error) {
         console.error('Error fetching Gitea data:', error);
         res.status(500).json({ error: 'Unable to fetch Gitea commits' });

@@ -17,6 +17,7 @@ model Trainees {
     email      String   @unique
     avatar_url String?
     token      String
+    uid        String   @unique
     created    DateTime @default(now())
     full_name  String
 }
