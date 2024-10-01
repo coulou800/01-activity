@@ -43,7 +43,7 @@ app.get("/check-domain", (req, res) => {
     })
 })
 
-app.post('/api/trainee', async (req, res) => {
+app.post('/trainee', async (req, res) => {
     let token = req.body.token
     let domain = req.body.domain
     try {
@@ -58,7 +58,7 @@ app.post('/api/trainee', async (req, res) => {
     }
 });
 
-app.get('/api/trainee', async (req, res) => {
+app.get('/api/get/trainee', async (req, res) => {
     let uid = req.query.id as string
     try {
         getTraineeByUid(uid).then((user) => {
