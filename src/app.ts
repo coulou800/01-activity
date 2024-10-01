@@ -4,8 +4,7 @@ import * as path from 'path';
 import { checkDomain, getUser, getUserRepos } from './services';
 import { Request, Response } from 'express'; // Add this import
 const app = express();
-const port = 3000;
-
+const port = parseInt(process.env.PORT || '4000', 10);
 import * as cors from 'cors';
 import newTrainee, { getTraineeByUid } from './repositories';
 import { log } from 'console';
