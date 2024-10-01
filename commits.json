@@ -1,0 +1,890 @@
+[
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/43b74c397662daa6fedd45e55f5fe3075ec8fa8a",
+        "sha": "43b74c397662daa6fedd45e55f5fe3075ec8fa8a",
+        "created": "2024-09-21T15:33:38Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/43b74c397662daa6fedd45e55f5fe3075ec8fa8a",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/43b74c397662daa6fedd45e55f5fe3075ec8fa8a",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-21T15:33:38Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-21T15:33:38Z"
+            },
+            "message": "fix: rate limit\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/43b74c397662daa6fedd45e55f5fe3075ec8fa8a",
+                "sha": "43b74c397662daa6fedd45e55f5fe3075ec8fa8a",
+                "created": "2024-09-21T15:33:38Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/1330705de1db816fe5a24f5ba22f9730f64befe1",
+                "sha": "1330705de1db816fe5a24f5ba22f9730f64befe1",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "tests/test.go"
+            },
+            {
+                "filename": "go.mod"
+            },
+            {
+                "filename": "go.sum"
+            },
+            {
+                "filename": "net/net.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/1330705de1db816fe5a24f5ba22f9730f64befe1",
+        "sha": "1330705de1db816fe5a24f5ba22f9730f64befe1",
+        "created": "2024-09-20T19:07:43Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/1330705de1db816fe5a24f5ba22f9730f64befe1",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/1330705de1db816fe5a24f5ba22f9730f64befe1",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-20T19:07:43Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-20T19:07:43Z"
+            },
+            "message": "refactor\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/1330705de1db816fe5a24f5ba22f9730f64befe1",
+                "sha": "1330705de1db816fe5a24f5ba22f9730f64befe1",
+                "created": "2024-09-20T19:07:43Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/22db65bb9b52e1fd75ba52d6709e4f3d9ed7420f",
+                "sha": "22db65bb9b52e1fd75ba52d6709e4f3d9ed7420f",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "tests/test.go"
+            },
+            {
+                "filename": ".vscode/launch.json"
+            },
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "links"
+            },
+            {
+                "filename": "net/net.go"
+            },
+            {
+                "filename": "state/state.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/22db65bb9b52e1fd75ba52d6709e4f3d9ed7420f",
+        "sha": "22db65bb9b52e1fd75ba52d6709e4f3d9ed7420f",
+        "created": "2024-09-20T18:17:01Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/22db65bb9b52e1fd75ba52d6709e4f3d9ed7420f",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/22db65bb9b52e1fd75ba52d6709e4f3d9ed7420f",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-20T18:17:01Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-20T18:17:01Z"
+            },
+            "message": "add readme\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/22db65bb9b52e1fd75ba52d6709e4f3d9ed7420f",
+                "sha": "22db65bb9b52e1fd75ba52d6709e4f3d9ed7420f",
+                "created": "2024-09-20T18:17:01Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/08cd778edd68848ad2a25037d0e53cd90f10bb55",
+                "sha": "08cd778edd68848ad2a25037d0e53cd90f10bb55",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "README.md"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/08cd778edd68848ad2a25037d0e53cd90f10bb55",
+        "sha": "08cd778edd68848ad2a25037d0e53cd90f10bb55",
+        "created": "2024-09-20T18:12:00Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/08cd778edd68848ad2a25037d0e53cd90f10bb55",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/08cd778edd68848ad2a25037d0e53cd90f10bb55",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-20T18:12:00Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-20T18:12:00Z"
+            },
+            "message": "fix: extensions and directory exclusion\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/08cd778edd68848ad2a25037d0e53cd90f10bb55",
+                "sha": "08cd778edd68848ad2a25037d0e53cd90f10bb55",
+                "created": "2024-09-20T18:12:00Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/5a0f73dd4fa3334d7610a20bc9e92bb18f149ed7",
+                "sha": "5a0f73dd4fa3334d7610a20bc9e92bb18f149ed7",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": ".gitignore"
+            },
+            {
+                "filename": ".vscode/launch.json"
+            },
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "net/net.go"
+            },
+            {
+                "filename": "state/state.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/5a0f73dd4fa3334d7610a20bc9e92bb18f149ed7",
+        "sha": "5a0f73dd4fa3334d7610a20bc9e92bb18f149ed7",
+        "created": "2024-09-19T07:28:30Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/5a0f73dd4fa3334d7610a20bc9e92bb18f149ed7",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/5a0f73dd4fa3334d7610a20bc9e92bb18f149ed7",
+            "author": {
+                "name": "bcoulibal",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-19T07:28:30Z"
+            },
+            "committer": {
+                "name": "bcoulibal",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-19T07:28:30Z"
+            },
+            "message": "tofix: error with flag\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/5a0f73dd4fa3334d7610a20bc9e92bb18f149ed7",
+                "sha": "5a0f73dd4fa3334d7610a20bc9e92bb18f149ed7",
+                "created": "2024-09-19T07:28:30Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a823adc0264946b6f08db861abf6ed80a73a1bda",
+                "sha": "a823adc0264946b6f08db861abf6ed80a73a1bda",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": ".vscode/launch.json"
+            },
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "links"
+            },
+            {
+                "filename": "net/net.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a823adc0264946b6f08db861abf6ed80a73a1bda",
+        "sha": "a823adc0264946b6f08db861abf6ed80a73a1bda",
+        "created": "2024-09-19T06:14:09Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/a823adc0264946b6f08db861abf6ed80a73a1bda",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a823adc0264946b6f08db861abf6ed80a73a1bda",
+            "author": {
+                "name": "bcoulibal",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-19T06:14:09Z"
+            },
+            "committer": {
+                "name": "bcoulibal",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-19T06:14:09Z"
+            },
+            "message": "update: logger\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/a823adc0264946b6f08db861abf6ed80a73a1bda",
+                "sha": "a823adc0264946b6f08db861abf6ed80a73a1bda",
+                "created": "2024-09-19T06:14:09Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/34b71cd5996e423b2e67c669901736c855b94066",
+                "sha": "34b71cd5996e423b2e67c669901736c855b94066",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "logger/log.go"
+            },
+            {
+                "filename": "net/net.go"
+            },
+            {
+                "filename": "state/state.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/34b71cd5996e423b2e67c669901736c855b94066",
+        "sha": "34b71cd5996e423b2e67c669901736c855b94066",
+        "created": "2024-09-19T05:34:29Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/34b71cd5996e423b2e67c669901736c855b94066",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/34b71cd5996e423b2e67c669901736c855b94066",
+            "author": {
+                "name": "bcoulibal",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-19T05:34:29Z"
+            },
+            "committer": {
+                "name": "bcoulibal",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-19T05:34:29Z"
+            },
+            "message": "fix: link extraction\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/34b71cd5996e423b2e67c669901736c855b94066",
+                "sha": "34b71cd5996e423b2e67c669901736c855b94066",
+                "created": "2024-09-19T05:34:29Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/422ef172dbc67f2cd8880262b01966a9ce6dae6c",
+                "sha": "422ef172dbc67f2cd8880262b01966a9ce6dae6c",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": ".vscode/launch.json"
+            },
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "logger/log.go"
+            },
+            {
+                "filename": "net/net.go"
+            },
+            {
+                "filename": "state/state.go"
+            },
+            {
+                "filename": "utils/utils.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/422ef172dbc67f2cd8880262b01966a9ce6dae6c",
+        "sha": "422ef172dbc67f2cd8880262b01966a9ce6dae6c",
+        "created": "2024-09-17T19:25:50Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/422ef172dbc67f2cd8880262b01966a9ce6dae6c",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/422ef172dbc67f2cd8880262b01966a9ce6dae6c",
+            "author": {
+                "name": "bcoulibal",
+                "email": "coulou789@gmail.com",
+                "date": "2024-09-17T19:25:50Z"
+            },
+            "committer": {
+                "name": "bcoulibal",
+                "email": "coulou789@gmail.com",
+                "date": "2024-09-17T19:25:50Z"
+            },
+            "message": "fix\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/422ef172dbc67f2cd8880262b01966a9ce6dae6c",
+                "sha": "422ef172dbc67f2cd8880262b01966a9ce6dae6c",
+                "created": "2024-09-17T19:25:50Z"
+            }
+        },
+        "author": {
+            "id": 2279,
+            "login": "bcoulibal",
+            "full_name": "Bounama Coulibaly",
+            "email": "bcoulibal@noreply.learn.zone01dakar.sn",
+            "avatar_url": "https://learn.zone01dakar.sn/git/avatars/2d1180c296af26564072cafb75e59fcb",
+            "language": "",
+            "is_admin": false,
+            "last_login": "0001-01-01T00:00:00Z",
+            "created": "2022-09-02T01:46:53Z",
+            "restricted": false,
+            "active": false,
+            "prohibit_login": false,
+            "location": "",
+            "website": "",
+            "description": "",
+            "visibility": "public",
+            "followers_count": 2,
+            "following_count": 2,
+            "starred_repos_count": 8,
+            "username": "bcoulibal"
+        },
+        "committer": {
+            "id": 2279,
+            "login": "bcoulibal",
+            "full_name": "Bounama Coulibaly",
+            "email": "bcoulibal@noreply.learn.zone01dakar.sn",
+            "avatar_url": "https://learn.zone01dakar.sn/git/avatars/2d1180c296af26564072cafb75e59fcb",
+            "language": "",
+            "is_admin": false,
+            "last_login": "0001-01-01T00:00:00Z",
+            "created": "2022-09-02T01:46:53Z",
+            "restricted": false,
+            "active": false,
+            "prohibit_login": false,
+            "location": "",
+            "website": "",
+            "description": "",
+            "visibility": "public",
+            "followers_count": 2,
+            "following_count": 2,
+            "starred_repos_count": 8,
+            "username": "bcoulibal"
+        },
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a0a988b9a6ab43f8fe8a63e76c5a19a663afc6e9",
+                "sha": "a0a988b9a6ab43f8fe8a63e76c5a19a663afc6e9",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "logger/log.go"
+            },
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "net/net.go"
+            },
+            {
+                "filename": "utils/utils.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a0a988b9a6ab43f8fe8a63e76c5a19a663afc6e9",
+        "sha": "a0a988b9a6ab43f8fe8a63e76c5a19a663afc6e9",
+        "created": "2024-09-17T17:34:18Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/a0a988b9a6ab43f8fe8a63e76c5a19a663afc6e9",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a0a988b9a6ab43f8fe8a63e76c5a19a663afc6e9",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-17T17:34:18Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-17T17:34:18Z"
+            },
+            "message": "feat: link update\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/a0a988b9a6ab43f8fe8a63e76c5a19a663afc6e9",
+                "sha": "a0a988b9a6ab43f8fe8a63e76c5a19a663afc6e9",
+                "created": "2024-09-17T17:34:18Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a94e227e40706119a81115cd3a383e0e28d57629",
+                "sha": "a94e227e40706119a81115cd3a383e0e28d57629",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "net/net.go"
+            },
+            {
+                "filename": "state/state.go"
+            },
+            {
+                "filename": "utils/utils.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a94e227e40706119a81115cd3a383e0e28d57629",
+        "sha": "a94e227e40706119a81115cd3a383e0e28d57629",
+        "created": "2024-09-17T15:06:41Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/a94e227e40706119a81115cd3a383e0e28d57629",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/a94e227e40706119a81115cd3a383e0e28d57629",
+            "author": {
+                "name": "Bounama Coulibaly",
+                "email": "35851541+coulou800@users.noreply.github.com",
+                "date": "2024-09-17T15:06:41Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-09-17T15:06:41Z"
+            },
+            "message": "Update go.yml",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/a94e227e40706119a81115cd3a383e0e28d57629",
+                "sha": "a94e227e40706119a81115cd3a383e0e28d57629",
+                "created": "2024-09-17T15:06:41Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/71c40cfeb6d4b4849ff454b2d35b277554882c08",
+                "sha": "71c40cfeb6d4b4849ff454b2d35b277554882c08",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": ".github/workflows/go.yml"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/71c40cfeb6d4b4849ff454b2d35b277554882c08",
+        "sha": "71c40cfeb6d4b4849ff454b2d35b277554882c08",
+        "created": "2024-09-17T15:03:55Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/71c40cfeb6d4b4849ff454b2d35b277554882c08",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/71c40cfeb6d4b4849ff454b2d35b277554882c08",
+            "author": {
+                "name": "Bounama Coulibaly",
+                "email": "35851541+coulou800@users.noreply.github.com",
+                "date": "2024-09-17T15:03:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-09-17T15:03:55Z"
+            },
+            "message": "Create go.yml",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/71c40cfeb6d4b4849ff454b2d35b277554882c08",
+                "sha": "71c40cfeb6d4b4849ff454b2d35b277554882c08",
+                "created": "2024-09-17T15:03:55Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/62408cff94c12968048f8236bcfe81146cffe6ec",
+                "sha": "62408cff94c12968048f8236bcfe81146cffe6ec",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": ".github/workflows/go.yml"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/62408cff94c12968048f8236bcfe81146cffe6ec",
+        "sha": "62408cff94c12968048f8236bcfe81146cffe6ec",
+        "created": "2024-09-14T18:57:59Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/62408cff94c12968048f8236bcfe81146cffe6ec",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/62408cff94c12968048f8236bcfe81146cffe6ec",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-14T18:57:59Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-14T18:57:59Z"
+            },
+            "message": "error: mirror\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/62408cff94c12968048f8236bcfe81146cffe6ec",
+                "sha": "62408cff94c12968048f8236bcfe81146cffe6ec",
+                "created": "2024-09-14T18:57:59Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/b2d97784daa71ba6ff8ad887b5f03a06b10556bf",
+                "sha": "b2d97784daa71ba6ff8ad887b5f03a06b10556bf",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": ".vscode/launch.json"
+            },
+            {
+                "filename": "state/state.go"
+            },
+            {
+                "filename": "index.html"
+            },
+            {
+                "filename": "net/package net_test.go"
+            },
+            {
+                "filename": "test.html"
+            },
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "go.mod"
+            },
+            {
+                "filename": "go.sum"
+            },
+            {
+                "filename": "links"
+            },
+            {
+                "filename": "net/net.go"
+            },
+            {
+                "filename": "utils/utils.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/b2d97784daa71ba6ff8ad887b5f03a06b10556bf",
+        "sha": "b2d97784daa71ba6ff8ad887b5f03a06b10556bf",
+        "created": "2024-09-01T18:54:32Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/b2d97784daa71ba6ff8ad887b5f03a06b10556bf",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/b2d97784daa71ba6ff8ad887b5f03a06b10556bf",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-01T18:54:32Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-09-01T18:54:32Z"
+            },
+            "message": "feat: asynchronous downloading\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/b2d97784daa71ba6ff8ad887b5f03a06b10556bf",
+                "sha": "b2d97784daa71ba6ff8ad887b5f03a06b10556bf",
+                "created": "2024-09-01T18:54:32Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/dec4dd86ebe8d804bacf8ab2e39d92eb6cde12b3",
+                "sha": "dec4dd86ebe8d804bacf8ab2e39d92eb6cde12b3",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "links"
+            },
+            {
+                "filename": "utils/utils.go"
+            },
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "net/net.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/dec4dd86ebe8d804bacf8ab2e39d92eb6cde12b3",
+        "sha": "dec4dd86ebe8d804bacf8ab2e39d92eb6cde12b3",
+        "created": "2024-08-31T06:48:30Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/dec4dd86ebe8d804bacf8ab2e39d92eb6cde12b3",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/dec4dd86ebe8d804bacf8ab2e39d92eb6cde12b3",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-08-31T06:48:30Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-08-31T06:48:30Z"
+            },
+            "message": "add progress bar\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/dec4dd86ebe8d804bacf8ab2e39d92eb6cde12b3",
+                "sha": "dec4dd86ebe8d804bacf8ab2e39d92eb6cde12b3",
+                "created": "2024-08-31T06:48:30Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/2a59051eede983ea889062071864f3fe6833b78a",
+                "sha": "2a59051eede983ea889062071864f3fe6833b78a",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "index.html"
+            },
+            {
+                "filename": "net/net.go"
+            },
+            {
+                "filename": "net/package net_test.go"
+            },
+            {
+                "filename": "test.html"
+            },
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "go.mod"
+            },
+            {
+                "filename": "go.sum"
+            },
+            {
+                "filename": "main.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/2a59051eede983ea889062071864f3fe6833b78a",
+        "sha": "2a59051eede983ea889062071864f3fe6833b78a",
+        "created": "2024-08-05T21:39:14Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/2a59051eede983ea889062071864f3fe6833b78a",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/2a59051eede983ea889062071864f3fe6833b78a",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-08-05T21:39:14Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-08-05T21:39:14Z"
+            },
+            "message": "feat: run in background\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/2a59051eede983ea889062071864f3fe6833b78a",
+                "sha": "2a59051eede983ea889062071864f3fe6833b78a",
+                "created": "2024-08-05T21:39:14Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/1c526f120fd14c7d35361e052c121a88ec746fd9",
+                "sha": "1c526f120fd14c7d35361e052c121a88ec746fd9",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "cmd/exec.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/1c526f120fd14c7d35361e052c121a88ec746fd9",
+        "sha": "1c526f120fd14c7d35361e052c121a88ec746fd9",
+        "created": "2024-08-05T20:19:14Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/1c526f120fd14c7d35361e052c121a88ec746fd9",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/1c526f120fd14c7d35361e052c121a88ec746fd9",
+            "author": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-08-05T20:19:14Z"
+            },
+            "committer": {
+                "name": "coulou800",
+                "email": "coulou800@gmail.com",
+                "date": "2024-08-05T20:19:14Z"
+            },
+            "message": "refactor: flag\n",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/1c526f120fd14c7d35361e052c121a88ec746fd9",
+                "sha": "1c526f120fd14c7d35361e052c121a88ec746fd9",
+                "created": "2024-08-05T20:19:14Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/72f7e29bdd475778c12787d8b93c128023ff4c87",
+                "sha": "72f7e29bdd475778c12787d8b93c128023ff4c87",
+                "created": "0001-01-01T00:00:00Z"
+            }
+        ],
+        "files": [
+            {
+                "filename": "cmd/exec.go"
+            },
+            {
+                "filename": "flag/flag.go"
+            },
+            {
+                "filename": "go.mod"
+            },
+            {
+                "filename": "go.sum"
+            },
+            {
+                "filename": "main.go"
+            }
+        ]
+    },
+    {
+        "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/72f7e29bdd475778c12787d8b93c128023ff4c87",
+        "sha": "72f7e29bdd475778c12787d8b93c128023ff4c87",
+        "created": "2024-08-05T18:50:40Z",
+        "html_url": "https://learn.zone01dakar.sn/git/bcoulibal/wget/commit/72f7e29bdd475778c12787d8b93c128023ff4c87",
+        "commit": {
+            "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/commits/72f7e29bdd475778c12787d8b93c128023ff4c87",
+            "author": {
+                "name": "Bounama Coulibaly",
+                "email": "35851541+coulou800@users.noreply.github.com",
+                "date": "2024-08-05T18:50:40Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-08-05T18:50:40Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "url": "https://learn.zone01dakar.sn/git/api/v1/repos/bcoulibal/wget/git/trees/72f7e29bdd475778c12787d8b93c128023ff4c87",
+                "sha": "72f7e29bdd475778c12787d8b93c128023ff4c87",
+                "created": "2024-08-05T18:50:40Z"
+            }
+        },
+        "author": null,
+        "committer": null,
+        "parents": [],
+        "files": [
+            {
+                "filename": ".gitignore"
+            },
+            {
+                "filename": "LICENSE"
+            },
+            {
+                "filename": "README.md"
+            }
+        ]
+    }
+]

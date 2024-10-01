@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "tsc / ts-node src/app.ts",
     "watch": "tsc --watch",
-    "dev":"tsc && nodemon src/app.ts"
+    "dev": "tsc && prisma generate && prisma migrate deploy  && nodemon src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -35,11 +35,19 @@
   "homepage": "https://github.com/coulou800/01-activity#readme",
   "description": "",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "prisma": "^5.20.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   },
   "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "@vercel/postgres": "^0.10.0",
     "axios": "1.7.7",
+    "cors": "2.8.5",
+    "express": "4.21.0",
     "nodemon": "3.1.7"
   }
-
 }

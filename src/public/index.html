@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="domain">Domain:</label>
+        <input type="text" id="domain" name="domain"><br><br>
+        <label for="token">Gitea Token:</label>
+        <input type="text" id="token" name="token"><br><br>
+        <input id="submitButton" type="button" value="Submit">
+    </form>
+    <script>
+
+        let submitButton = document.getElementById("submitButton")
+        submitButton.onclick = submit
+
+        async function submit(e) {
+            e.preventDefault()
+            let domain = document.getElementById("domain").value
+            domain = domain.trimLeft("http://" | "https://")
+            let token = document.getElementById("token").value
+            checkDomain(domain).then((result) => {
+                if (result) {
+                    fetch('/api/trainee', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            domain: domain,
+                            token: token,
+                        }),
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('Success:', data);
+                        })
+                        .catch((error) => {
+                            console.error('Error:', error);
+                        });
+                } else {
+                    console.error("cannot connect to: ", domain)
+                }
+            })
+
+
+
+        }
+
+        async function checkDomain(domain) {
+            return fetch(`/check-domain?domain=${domain}`)
+                .then(response => response.ok)
+                .catch(error => false);
+        }
+    </script>
+</body>
+
+</html>
